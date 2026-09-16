@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #f5f2ed; color: #131a24; font-family: Archivo, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: #1d2b45; text-decoration: none; }
+  a:hover { color: #b4542f; }
+  img { display: block; }
+</style>
+</helmet>
+
+<div style="width:100%; background:#f5f2ed;">
+
+  <header style="position:sticky; top:0; z-index:40; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px 28px; padding:14px clamp(20px,4vw,56px); background:rgba(245,242,237,0.92); backdrop-filter:blur(10px); border-bottom:1px solid rgba(19,26,36,0.12);">
+    <a href="#top" style="display:flex; flex-direction:column; line-height:1.05;">
+      <span style="font-size:15px; font-weight:600; letter-spacing:0.22em; text-transform:uppercase;">Studio</span>
+      <span style="font-size:15px; font-weight:400; letter-spacing:0.22em; text-transform:uppercase; color:#5b6472;">Apparels</span>
+    </a>
+    <nav style="display:flex; align-items:center; flex-wrap:wrap; gap:8px 26px; font-size:13px; letter-spacing:0.04em;">
+      <a href="#company" style="color:#39424f;" style-hover="color:#b4542f;">Company</a>
+      <a href="#services" style="color:#39424f;" style-hover="color:#b4542f;">What we do</a>
+      <a href="#quality" style="color:#39424f;" style-hover="color:#b4542f;">Quality</a>
+      <a href="#markets" style="color:#39424f;" style-hover="color:#b4542f;">Markets</a>
+      <a href="#products" style="color:#39424f;" style-hover="color:#b4542f;">Products</a>
+      <a href="#partners" style="color:#39424f;" style-hover="color:#b4542f;">Partners</a>
+      <a href="#contact" style="display:inline-flex; align-items:center; padding:10px 18px; background:#1d2b45; color:#f5f2ed; border-radius:999px; font-weight:500; white-space:nowrap;" style-hover="background:#b4542f; color:#fff;">Send a tech pack</a>
+    </nav>
+  </header>
+
+  <section id="top" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr)); align-items:stretch; background:#1d2b45;">
+    <div style="padding:clamp(40px,6vw,88px) clamp(24px,5vw,72px); display:flex; flex-direction:column; justify-content:center; gap:26px; color:#f5f2ed;">
+      <div style="display:flex; align-items:center; gap:14px; font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(245,242,237,0.72);">
+        <span style="width:34px; height:1px; background:#b4542f;"></span>
+        <span>Dhaka, Bangladesh</span>
+      </div>
+      <h1 style="margin:0; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(38px,4.6vw,66px); line-height:1.04; letter-spacing:-0.015em; text-wrap:pretty;">Apparel sourcing, product development and quality assurance for international fashion brands.</h1>
+      <p style="margin:0; max-width:52ch; font-size:clamp(16px,1.2vw,18px); line-height:1.6; color:rgba(245,242,237,0.82); text-wrap:pretty;">Studio Apparels is the local partner for brands and retailers producing in Bangladesh — one team from tech pack to shipment, with buyer-authorised final inspection carried out from our own office.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:14px; padding-top:6px;">
+        <a href="mailto:wahid@studioapparels.com" style="display:inline-flex; align-items:center; padding:15px 26px; background:#f5f2ed; color:#1d2b45; border-radius:999px; font-size:14px; font-weight:600; letter-spacing:0.02em;" style-hover="background:#b4542f; color:#ffffff;">Start a development request</a>
+        <a href="#products" style="display:inline-flex; align-items:center; padding:15px 26px; border:1px solid rgba(245,242,237,0.4); color:#f5f2ed; border-radius:999px; font-size:14px; font-weight:500;" style-hover="border-color:#f5f2ed;">See the product range</a>
+      </div>
+    </div>
+    <div style="position:relative; min-height:clamp(320px,46vw,620px); background:#0f1726;">
+      <img src="img/hero-building.png" alt="Studio Apparels corporate office building in Mohammadpur, Dhaka" style="width:100%; height:100%; object-fit:cover; opacity:0.92;" />
+    </div>
+  </section>
+
+  <section style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); border-bottom:1px solid rgba(19,26,36,0.12);">
+    <div style="padding:clamp(26px,3vw,40px) clamp(20px,3vw,40px); border-right:1px solid rgba(19,26,36,0.12);">
+      <div style="font-family:'Instrument Serif',Georgia,serif; font-size:clamp(38px,3.4vw,52px); line-height:1;">16+</div>
+      <div style="margin-top:8px; font-size:13px; letter-spacing:0.02em; color:#5b6472;">Years of industry experience</div>
+    </div>
+    <div style="padding:clamp(26px,3vw,40px) clamp(20px,3vw,40px); border-right:1px solid rgba(19,26,36,0.12);">
+      <div style="font-family:'Instrument Serif',Georgia,serif; font-size:clamp(38px,3.4vw,52px); line-height:1;">6</div>
+      <div style="margin-top:8px; font-size:13px; letter-spacing:0.02em; color:#5b6472;">Product categories in our range</div>
+    </div>
+    <div style="padding:clamp(26px,3vw,40px) clamp(20px,3vw,40px); border-right:1px solid rgba(19,26,36,0.12);">
+      <div style="font-family:'Instrument Serif',Georgia,serif; font-size:clamp(38px,3.4vw,52px); line-height:1;">3</div>
+      <div style="margin-top:8px; font-size:13px; letter-spacing:0.02em; color:#5b6472;">Core European export markets</div>
+    </div>
+    <div style="padding:clamp(26px,3vw,40px) clamp(20px,3vw,40px);">
+      <div style="font-family:'Instrument Serif',Georgia,serif; font-size:clamp(38px,3.4vw,52px); line-height:1;">7</div>
+      <div style="margin-top:8px; font-size:13px; letter-spacing:0.02em; color:#5b6472;">Audited partner factories</div>
+    </div>
+  </section>
+
+  <section id="company" style="padding:clamp(56px,7vw,110px) clamp(20px,5vw,72px);">
+    <div style="max-width:1200px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:clamp(32px,5vw,72px);">
+      <div>
+        <div style="font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:#b4542f;">01 · The company</div>
+        <h2 style="margin:18px 0 26px; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(30px,3.2vw,46px); line-height:1.1; letter-spacing:-0.01em;">A sourcing and product development house in Dhaka</h2>
+        <p style="margin:0 0 18px; font-size:16px; line-height:1.7; color:#39424f; max-width:60ch; text-wrap:pretty;">We act as the local partner for international brands and retailers, managing the full order cycle from initial design and sampling through to production follow-up, quality assurance and final inspection.</p>
+        <p style="margin:0 0 18px; font-size:16px; line-height:1.7; color:#39424f; max-width:60ch; text-wrap:pretty;">Our team brings more than sixteen years of hands-on experience across denim, non-denim woven, circular knit, flat knit and outerwear. Production is placed with a vetted base of compliant manufacturing partners, so every order is matched to the right factory for its product type, quantity and price point.</p>
+        <p style="margin:0; font-size:16px; line-height:1.7; color:#39424f; max-width:60ch; text-wrap:pretty;">Studio Apparels is authorised to carry out final inspection on behalf of its buyers — letting clients reduce overhead in Bangladesh without giving up control over product quality.</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:20px;">
+        <div style="padding:clamp(24px,3vw,36px); background:#ffffff; border:1px solid rgba(19,26,36,0.1);">
+          <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#5b6472;">What makes us different</div>
+          <ul style="margin:20px 0 0; padding:0; list-style:none; display:flex; flex-direction:column; gap:16px;">
+            <li style="display:grid; grid-template-columns:18px 1fr; gap:12px; font-size:15px; line-height:1.6; color:#131a24;"><span style="margin-top:9px; width:8px; height:8px; background:#b4542f; border-radius:50%;"></span><span>One team from tech pack to shipment, with no handovers between agents</span></li>
+            <li style="display:grid; grid-template-columns:18px 1fr; gap:12px; font-size:15px; line-height:1.6; color:#131a24;"><span style="margin-top:9px; width:8px; height:8px; background:#b4542f; border-radius:50%;"></span><span>Factory selection matched to each product type rather than fixed to one unit</span></li>
+            <li style="display:grid; grid-template-columns:18px 1fr; gap:12px; font-size:15px; line-height:1.6; color:#131a24;"><span style="margin-top:9px; width:8px; height:8px; background:#b4542f; border-radius:50%;"></span><span>Buyer-authorised final inspection carried out from our own office</span></li>
+          </ul>
+        </div>
+        <div style="padding:clamp(24px,3vw,36px); background:#1d2b45; color:#f5f2ed;">
+          <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:rgba(245,242,237,0.66);">Our vision</div>
+          <p style="margin:16px 0 0; font-family:'Instrument Serif',Georgia,serif; font-size:clamp(22px,2vw,28px); line-height:1.3; text-wrap:pretty;">To be a globally trusted apparel sourcing partner, delivering quality, innovation, sustainability and value to fashion brands worldwide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 clamp(20px,5vw,72px) clamp(56px,7vw,110px);">
+    <div style="max-width:1200px; margin:0 auto;">
+      <h3 style="margin:0 0 30px; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(26px,2.4vw,34px);">Leadership</h3>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(330px,1fr)); gap:clamp(20px,3vw,32px);">
+        <article style="background:#ffffff; border:1px solid rgba(19,26,36,0.1); display:flex; flex-direction:column;">
+          <img src="img/wahid.png" alt="Md. Wahid Bin Kashim at the Studio Apparels office" style="width:100%; height:clamp(220px,26vw,300px); object-fit:cover;" />
+          <div style="padding:clamp(22px,2.6vw,32px); display:flex; flex-direction:column; gap:16px;">
+            <div>
+              <div style="font-size:20px; font-weight:600;">Md. Wahid Bin Kashim</div>
+              <div style="margin-top:6px; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#b4542f;">Founder &amp; Chief Executive Officer</div>
+            </div>
+            <p style="margin:0; font-size:15px; line-height:1.65; color:#39424f;">More than sixteen years in the Bangladesh readymade garment industry, covering merchandising, product development and factory management across woven and knit product groups.</p>
+            <div>
+              <div style="font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#5b6472;">Brands and customers worked with</div>
+              <div style="margin-top:14px; display:flex; flex-wrap:wrap; gap:8px;">
+                <span style="padding:7px 13px; background:#f5f2ed; font-size:13px;">Fenicia S.p.A.</span>
+                <span style="padding:7px 13px; background:#f5f2ed; font-size:13px;">AGN Fashion Ware S.r.l.</span>
+                <span style="padding:7px 13px; background:#f5f2ed; font-size:13px;">Hublot</span>
+                <span style="padding:7px 13px; background:#f5f2ed; font-size:13px;">Style Wise UK</span>
+                <span style="padding:7px 13px; background:#f5f2ed; font-size:13px;">Piazza Italia</span>
+                <span style="padding:7px 13px; background:#f5f2ed; font-size:13px;">Ruta Fashion</span>
+                <span style="padding:7px 13px; background:#f5f2ed; font-size:13px;">Alcott</span>
+                <span style="padding:7px 13px; background:#f5f2ed; font-size:13px;">DK Company</span>
+                <span style="padding:7px 13px; background:#f5f2ed; font-size:13px;">Leisurewear International Ltd.</span>
+              </div>
+            </div>
+            <a href="mailto:wahid@studioapparels.com" style="font-size:14px; font-weight:500;">wahid@studioapparels.com · +880 1713 387877</a>
+          </div>
+        </article>
+        <article style="background:#ffffff; border:1px solid rgba(19,26,36,0.1); display:flex; flex-direction:column;">
+          <img src="img/max.png" alt="Md. Ariful Islam working on artwork development" style="width:100%; height:clamp(220px,26vw,300px); object-fit:cover;" />
+          <div style="padding:clamp(22px,2.6vw,32px); display:flex; flex-direction:column; gap:16px;">
+            <div>
+              <div style="font-size:20px; font-weight:600;">Md. Ariful Islam (Max)</div>
+              <div style="margin-top:6px; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#b4542f;">Sr. Graphic Designer &amp; Developer</div>
+            </div>
+            <p style="margin:0; font-size:15px; line-height:1.65; color:#39424f;">Thirteen years in the international apparel sector across graphic artwork, print development, sample development, fabric research and garment washing. Has represented the team at Bestseller seminars in Denmark and works directly with brand design teams on seasonal development.</p>
+            <div>
+              <div style="font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#5b6472;">What our design team delivers</div>
+              <ul style="margin:14px 0 0; padding:0; list-style:none; display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px 20px; font-size:14px; line-height:1.5; color:#39424f;">
+                <li>Trend research and seasonal direction</li>
+                <li>Original artwork and print development</li>
+                <li>Customised design solutions</li>
+                <li>Sample and counter-sample development</li>
+                <li>Fabric R&amp;D, lab dips and wash trials</li>
+                <li>Embellishment and trim development</li>
+              </ul>
+            </div>
+            <a href="mailto:max@studioapparels.com" style="font-size:14px; font-weight:500;">max@studioapparels.com · +880 1713 145986</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <sc-if value="{{ showWorkplace }}" hint-placeholder-val="{{ true }}">
+    <section style="padding:0 clamp(20px,5vw,72px) clamp(56px,7vw,110px);">
+      <div style="max-width:1200px; margin:0 auto;">
+        <div style="display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:16px; margin-bottom:26px;">
+          <h3 style="margin:0; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(26px,2.4vw,34px);">Our workplace</h3>
+          <p style="margin:0; max-width:56ch; font-size:15px; line-height:1.6; color:#5b6472;">Corporate office at Jannat Villa, Dhaka Uddan, Mohammadpur — sampling room, meeting space and buyer showroom under one roof.</p>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:clamp(12px,1.6vw,20px);">
+          <img src="img/office-reception.png" alt="Studio Apparels reception" style="width:100%; height:clamp(200px,22vw,280px); object-fit:cover;" />
+          <img src="img/office-lounge.png" alt="Buyer lounge and showroom" style="width:100%; height:clamp(200px,22vw,280px); object-fit:cover;" />
+          <img src="img/office-meeting.png" alt="Meeting room" style="width:100%; height:clamp(200px,22vw,280px); object-fit:cover;" />
+        </div>
+      </div>
+    </section>
+  </sc-if>
+
+  <section id="services" style="padding:clamp(56px,7vw,110px) clamp(20px,5vw,72px); background:#ffffff; border-top:1px solid rgba(19,26,36,0.1); border-bottom:1px solid rgba(19,26,36,0.1);">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:#b4542f;">02 · What we do</div>
+      <h2 style="margin:18px 0 44px; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(30px,3.2vw,46px); line-height:1.1; max-width:22ch;">A single point of contact in Bangladesh</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1px; background:rgba(19,26,36,0.12);">
+        <div style="padding:clamp(24px,3vw,34px); background:#ffffff;">
+          <div style="font-family:'Instrument Serif',Georgia,serif; font-size:30px; color:#b4542f; line-height:1;">01</div>
+          <div style="margin:14px 0 10px; font-size:18px; font-weight:600;">Sourcing &amp; vendor management</div>
+          <p style="margin:0; font-size:15px; line-height:1.65; color:#39424f;">We match every order to the partner factory best suited to its product type, quantity and price point.</p>
+        </div>
+        <div style="padding:clamp(24px,3vw,34px); background:#ffffff;">
+          <div style="font-family:'Instrument Serif',Georgia,serif; font-size:30px; color:#b4542f; line-height:1;">02</div>
+          <div style="margin:14px 0 10px; font-size:18px; font-weight:600;">Product development</div>
+          <p style="margin:0; font-size:15px; line-height:1.65; color:#39424f;">Tech pack review, proto and fit samples, counter samples, size sets and approval management.</p>
+        </div>
+        <div style="padding:clamp(24px,3vw,34px); background:#ffffff;">
+          <div style="font-family:'Instrument Serif',Georgia,serif; font-size:30px; color:#b4542f; line-height:1;">03</div>
+          <div style="margin:14px 0 10px; font-size:18px; font-weight:600;">Design &amp; artwork</div>
+          <p style="margin:0; font-size:15px; line-height:1.65; color:#39424f;">In-house trend research, original print and embellishment development for seasonal ranges.</p>
+        </div>
+        <div style="padding:clamp(24px,3vw,34px); background:#ffffff;">
+          <div style="font-family:'Instrument Serif',Georgia,serif; font-size:30px; color:#b4542f; line-height:1;">04</div>
+          <div style="margin:14px 0 10px; font-size:18px; font-weight:600;">Fabric &amp; wash R&amp;D</div>
+          <p style="margin:0; font-size:15px; line-height:1.65; color:#39424f;">Fabric sourcing, lab dips, strike-offs, wash and finish development with our mill partners.</p>
+        </div>
+        <div style="padding:clamp(24px,3vw,34px); background:#ffffff;">
+          <div style="font-family:'Instrument Serif',Georgia,serif; font-size:30px; color:#b4542f; line-height:1;">05</div>
+          <div style="margin:14px 0 10px; font-size:18px; font-weight:600;">Production follow-up</div>
+          <p style="margin:0; font-size:15px; line-height:1.65; color:#39424f;">Daily line monitoring against the critical path, with early escalation on any risk to shipment.</p>
+        </div>
+        <div style="padding:clamp(24px,3vw,34px); background:#ffffff;">
+          <div style="font-family:'Instrument Serif',Georgia,serif; font-size:30px; color:#b4542f; line-height:1;">06</div>
+          <div style="margin:14px 0 10px; font-size:18px; font-weight:600;">Final inspection</div>
+          <p style="margin:0; font-size:15px; line-height:1.65; color:#39424f;">AQL-based in-line and final random inspection carried out on the buyer's behalf.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="quality" style="padding:clamp(56px,7vw,110px) clamp(20px,5vw,72px); background:#1d2b45; color:#f5f2ed;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(245,242,237,0.66);">Quality assurance</div>
+      <h2 style="margin:18px 0 44px; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(30px,3.2vw,46px); line-height:1.1; max-width:20ch;">How we protect quality</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:clamp(24px,3vw,40px);">
+        <div style="border-top:1px solid rgba(245,242,237,0.28); padding-top:20px;">
+          <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#e0a183;">01 · Pre-production</div>
+          <p style="margin:14px 0 0; font-size:15px; line-height:1.65; color:rgba(245,242,237,0.84);">Fabric and trim inspection on receipt, pre-production meeting with the factory, and size set approval before bulk cutting begins.</p>
+        </div>
+        <div style="border-top:1px solid rgba(245,242,237,0.28); padding-top:20px;">
+          <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#e0a183;">02 · In-line</div>
+          <p style="margin:14px 0 0; font-size:15px; line-height:1.65; color:rgba(245,242,237,0.84);">Checks at cutting, sewing and finishing while the order is on the line, so defects are caught and corrected before they multiply.</p>
+        </div>
+        <div style="border-top:1px solid rgba(245,242,237,0.28); padding-top:20px;">
+          <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#e0a183;">03 · Final</div>
+          <p style="margin:14px 0 0; font-size:15px; line-height:1.65; color:rgba(245,242,237,0.84);">AQL-based final random inspection on packed cartons, covering measurement, workmanship, labelling and packing accuracy.</p>
+        </div>
+        <div style="border-top:1px solid rgba(245,242,237,0.28); padding-top:20px;">
+          <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#e0a183;">04 · Reporting</div>
+          <p style="margin:14px 0 0; font-size:15px; line-height:1.65; color:rgba(245,242,237,0.84);">Photo-supported inspection reports shared with the buyer, with a clear pass, hold or re-inspect recommendation.</p>
+        </div>
+      </div>
+      <p style="margin:clamp(36px,4vw,56px) 0 0; max-width:34ch; font-family:'Instrument Serif',Georgia,serif; font-size:clamp(22px,2.4vw,32px); line-height:1.3; color:#f5f2ed;">Brands can release shipments without sending their own QA team to Bangladesh.</p>
+    </div>
+  </section>
+
+  <section id="advantage" style="padding:clamp(56px,7vw,110px) clamp(20px,5vw,72px);">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:#b4542f;">03 · The Bangladesh advantage</div>
+      <h2 style="margin:18px 0 40px; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(30px,3.2vw,46px); line-height:1.1; max-width:22ch;">Why global brands place their orders here</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1px; background:rgba(19,26,36,0.12); margin-bottom:clamp(32px,4vw,52px);">
+        <div style="padding:clamp(20px,2.4vw,30px); background:#f5f2ed;">
+          <div style="font-family:'Instrument Serif',Georgia,serif; font-size:clamp(32px,3vw,44px); line-height:1;">2nd</div>
+          <div style="margin-top:8px; font-size:13px; color:#5b6472;">Largest apparel exporter in the world</div>
+        </div>
+        <div style="padding:clamp(20px,2.4vw,30px); background:#f5f2ed;">
+          <div style="font-family:'Instrument Serif',Georgia,serif; font-size:clamp(32px,3vw,44px); line-height:1;">4M+</div>
+          <div style="margin-top:8px; font-size:13px; color:#5b6472;">People in direct industry employment</div>
+        </div>
+        <div style="padding:clamp(20px,2.4vw,30px); background:#f5f2ed;">
+          <div style="font-family:'Instrument Serif',Georgia,serif; font-size:clamp(32px,3vw,44px); line-height:1;">45+</div>
+          <div style="margin-top:8px; font-size:13px; color:#5b6472;">Years of industry maturity</div>
+        </div>
+        <div style="padding:clamp(20px,2.4vw,30px); background:#f5f2ed;">
+          <div style="font-family:'Instrument Serif',Georgia,serif; font-size:clamp(32px,3vw,44px); line-height:1;">6</div>
+          <div style="margin-top:8px; font-size:13px; color:#5b6472;">Duty-free destination market blocs</div>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:clamp(24px,4vw,56px);">
+        <ul style="margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:16px;">
+          <li style="display:grid; grid-template-columns:16px 1fr; gap:12px; font-size:15px; line-height:1.6; color:#39424f;"><span style="margin-top:8px; width:7px; height:7px; background:#1d2b45;"></span><span>Fully integrated supply chain, with yarn, fabric, trims and accessories available locally</span></li>
+          <li style="display:grid; grid-template-columns:16px 1fr; gap:12px; font-size:15px; line-height:1.6; color:#39424f;"><span style="margin-top:8px; width:7px; height:7px; background:#1d2b45;"></span><span>Deep capability across denim, non-denim woven, circular knit, sweater and outerwear</span></li>
+          <li style="display:grid; grid-template-columns:16px 1fr; gap:12px; font-size:15px; line-height:1.6; color:#39424f;"><span style="margin-top:8px; width:7px; height:7px; background:#1d2b45;"></span><span>Competitive cost base supported by a large, young and trained workforce</span></li>
+          <li style="display:grid; grid-template-columns:16px 1fr; gap:12px; font-size:15px; line-height:1.6; color:#39424f;"><span style="margin-top:8px; width:7px; height:7px; background:#1d2b45;"></span><span>Strong local trim and accessory base, which shortens lead times and reduces import dependency</span></li>
+        </ul>
+        <ul style="margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:16px;">
+          <li style="display:grid; grid-template-columns:16px 1fr; gap:12px; font-size:15px; line-height:1.6; color:#39424f;"><span style="margin-top:8px; width:7px; height:7px; background:#1d2b45;"></span><span>Duty-free access to the EU, UK, Japan, Australia, Canada and Turkey</span></li>
+          <li style="display:grid; grid-template-columns:16px 1fr; gap:12px; font-size:15px; line-height:1.6; color:#39424f;"><span style="margin-top:8px; width:7px; height:7px; background:#1d2b45;"></span><span>Nationwide factory safety programme run by the RMG Sustainability Council (RSC)</span></li>
+          <li style="display:grid; grid-template-columns:16px 1fr; gap:12px; font-size:15px; line-height:1.6; color:#39424f;"><span style="margin-top:8px; width:7px; height:7px; background:#1d2b45;"></span><span>Mature compliance culture, with WRAP, amfori BSCI, Sedex and OEKO-TEX certified units</span></li>
+          <li style="display:grid; grid-template-columns:16px 1fr; gap:12px; font-size:15px; line-height:1.6; color:#39424f;"><span style="margin-top:8px; width:7px; height:7px; background:#1d2b45;"></span><span>Bonded warehouse facilities and an established export incentive framework</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="markets" style="padding:clamp(56px,7vw,110px) clamp(20px,5vw,72px); background:#ffffff; border-top:1px solid rgba(19,26,36,0.1);">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:#b4542f;">04 · Markets &amp; buyers</div>
+      <h2 style="margin:18px 0 40px; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(30px,3.2vw,46px); line-height:1.1; max-width:18ch;">Where we ship</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:clamp(20px,2.6vw,32px);">
+        <div style="padding:clamp(24px,3vw,32px); background:#f5f2ed;">
+          <div style="font-size:19px; font-weight:600;">Italy</div>
+          <p style="margin:12px 0 0; font-size:15px; line-height:1.65; color:#39424f;">Fashion-led woven and knit programmes for Italian retail groups and brands.</p>
+        </div>
+        <div style="padding:clamp(24px,3vw,32px); background:#f5f2ed;">
+          <div style="font-size:19px; font-weight:600;">France</div>
+          <p style="margin:12px 0 0; font-size:15px; line-height:1.65; color:#39424f;">Casualwear and marine-inspired ranges for French labels.</p>
+        </div>
+        <div style="padding:clamp(24px,3vw,32px); background:#f5f2ed;">
+          <div style="font-size:19px; font-weight:600;">United Kingdom</div>
+          <p style="margin:12px 0 0; font-size:15px; line-height:1.65; color:#39424f;">High-street and value retail programmes across woven, knit and sweater.</p>
+        </div>
+      </div>
+      <p style="margin:clamp(28px,3.4vw,44px) 0 0; max-width:82ch; font-size:16px; line-height:1.7; color:#39424f; text-wrap:pretty;"><strong style="font-weight:600;">Building the next chapter.</strong> Our buyer base is concentrated in Western Europe, where our team has worked with the same retail groups across multiple seasons. We are now opening capacity for new accounts in the Nordics, Central Europe and North America.</p>
+      <sc-if value="{{ showBuyerLogos }}" hint-placeholder-val="{{ true }}">
+        <div style="margin-top:clamp(32px,4vw,56px); padding-top:clamp(28px,3vw,40px); border-top:1px solid rgba(19,26,36,0.12);">
+          <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#5b6472;">Brands we have worked with</div>
+          <div style="margin-top:26px; display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); align-items:center; gap:clamp(20px,3vw,40px);">
+            <img src="img/logo-camicissima.png" alt="Camicissima" style="width:100%; max-width:220px; height:auto; opacity:0.78;" />
+            <img src="img/logo-minoti.png" alt="Minoti" style="width:100%; max-width:180px; height:auto; opacity:0.78;" />
+            <img src="img/logos-strip.png" alt="Navyblue Yacht, Sailor Company, Garnè and Pigiamare" style="grid-column:span 2; width:100%; max-width:560px; height:auto; opacity:0.78;" />
+          </div>
+        </div>
+      </sc-if>
+    </div>
+  </section>
+
+  <section id="products" style="padding:clamp(56px,7vw,110px) clamp(20px,5vw,72px);">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:#b4542f;">05 · Product range</div>
+      <h2 style="margin:18px 0 44px; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(30px,3.2vw,46px); line-height:1.1; max-width:20ch;">Six categories, one supplier</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:clamp(16px,2.2vw,28px);">
+        <article style="background:#ffffff; border:1px solid rgba(19,26,36,0.1);" style-hover="border-color:#1d2b45;">
+          <div style="height:clamp(240px,26vw,320px); background:#ffffff; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+            <img src="img/denim-skirt.png" alt="Embroidered denim skirt" style="max-width:88%; max-height:88%; object-fit:contain;" />
+          </div>
+          <div style="padding:22px 24px 26px; border-top:1px solid rgba(19,26,36,0.1);">
+            <div style="font-size:18px; font-weight:600;">Denim</div>
+            <p style="margin:8px 0 0; font-size:14px; line-height:1.6; color:#5b6472;">Rigid and stretch denim: jeans, jackets, skirts, shorts and dresses, with wash and finish development handled in-house.</p>
+          </div>
+        </article>
+        <article style="background:#ffffff; border:1px solid rgba(19,26,36,0.1);" style-hover="border-color:#1d2b45;">
+          <div style="height:clamp(240px,26vw,320px); background:#ffffff; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+            <img src="img/cat-bottoms.png" alt="Chinos" style="max-width:88%; max-height:88%; object-fit:contain;" />
+          </div>
+          <div style="padding:22px 24px 26px; border-top:1px solid rgba(19,26,36,0.1);">
+            <div style="font-size:18px; font-weight:600;">Non-denim bottoms</div>
+            <p style="margin:8px 0 0; font-size:14px; line-height:1.6; color:#5b6472;">Chinos, cargos, cargo shorts and casual trousers in cotton, blends, corduroy and stretch woven fabrics.</p>
+          </div>
+        </article>
+        <article style="background:#ffffff; border:1px solid rgba(19,26,36,0.1);" style-hover="border-color:#1d2b45;">
+          <div style="height:clamp(240px,26vw,320px); background:#ffffff; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+            <img src="img/cat-tops.png" alt="Checked shirt" style="max-width:88%; max-height:88%; object-fit:contain;" />
+          </div>
+          <div style="padding:22px 24px 26px; border-top:1px solid rgba(19,26,36,0.1);">
+            <div style="font-size:18px; font-weight:600;">Non-denim tops</div>
+            <p style="margin:8px 0 0; font-size:14px; line-height:1.6; color:#5b6472;">Blouses, shirts, tunics and casual tops in viscose, rayon, cotton poplin, flannel and printed wovens.</p>
+          </div>
+        </article>
+        <article style="background:#ffffff; border:1px solid rgba(19,26,36,0.1);" style-hover="border-color:#1d2b45;">
+          <div style="height:clamp(240px,26vw,320px); background:#ffffff; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+            <img src="img/cat-knit.png" alt="Polo shirt" style="max-width:88%; max-height:88%; object-fit:contain;" />
+          </div>
+          <div style="padding:22px 24px 26px; border-top:1px solid rgba(19,26,36,0.1);">
+            <div style="font-size:18px; font-weight:600;">Circular knit</div>
+            <p style="margin:8px 0 0; font-size:14px; line-height:1.6; color:#5b6472;">T-shirts, polos, tank tops, sweatshirts and jersey dresses in single jersey, pique, interlock and fleece.</p>
+          </div>
+        </article>
+        <article style="background:#ffffff; border:1px solid rgba(19,26,36,0.1);" style-hover="border-color:#1d2b45;">
+          <div style="height:clamp(240px,26vw,320px); background:#ffffff; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+            <img src="img/cat-sport.png" alt="Windbreaker jacket" style="max-width:88%; max-height:88%; object-fit:contain;" />
+          </div>
+          <div style="padding:22px 24px 26px; border-top:1px solid rgba(19,26,36,0.1);">
+            <div style="font-size:18px; font-weight:600;">Sportswear &amp; outerwear</div>
+            <p style="margin:8px 0 0; font-size:14px; line-height:1.6; color:#5b6472;">Windbreakers, padded jackets, hooded fleece, blazers and performance activewear in technical and bonded fabrics.</p>
+          </div>
+        </article>
+        <article style="background:#ffffff; border:1px solid rgba(19,26,36,0.1);" style-hover="border-color:#1d2b45;">
+          <div style="height:clamp(240px,26vw,320px); background:#ffffff; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+            <img src="img/cat-flatknit.png" alt="Knitted sweater" style="max-width:88%; max-height:88%; object-fit:contain;" />
+          </div>
+          <div style="padding:22px 24px 26px; border-top:1px solid rgba(19,26,36,0.1);">
+            <div style="font-size:18px; font-weight:600;">Flat knit</div>
+            <p style="margin:8px 0 0; font-size:14px; line-height:1.6; color:#5b6472;">Sweaters, cardigans, pullovers and knitted outerwear from 3GG to 14GG in acrylic, cotton, wool and blended yarns.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 clamp(20px,5vw,72px) clamp(56px,7vw,110px);">
+    <div style="max-width:1200px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:clamp(24px,4vw,48px); align-items:center;">
+      <div>
+        <h3 style="margin:0 0 18px; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(26px,2.6vw,38px); line-height:1.15;">Sample development</h3>
+        <p style="margin:0 0 14px; font-size:16px; line-height:1.7; color:#39424f; max-width:56ch;">Bulk-standard samples are built in our own sampling room and approved with the buyer — front and back — before production is released.</p>
+        <p style="margin:0; font-size:16px; line-height:1.7; color:#39424f; max-width:56ch;">Fit, wash and trim variations are produced side by side so the buyer can compare options in a single approval round.</p>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:clamp(12px,1.6vw,18px);">
+        <img src="img/sample-trousers.png" alt="Trouser samples" style="width:100%; height:clamp(240px,26vw,340px); object-fit:cover; background:#ffffff;" />
+        <img src="img/sample-shorts.png" alt="Shorts samples" style="width:100%; height:clamp(240px,26vw,340px); object-fit:cover; background:#ffffff;" />
+      </div>
+    </div>
+  </section>
+
+  <section id="partners" style="padding:clamp(56px,7vw,110px) clamp(20px,5vw,72px); background:#ffffff; border-top:1px solid rgba(19,26,36,0.1);">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:#b4542f;">06 · Partners &amp; compliance</div>
+      <h2 style="margin:18px 0 22px; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(30px,3.2vw,46px); line-height:1.1; max-width:18ch;">Our vendor base</h2>
+      <p style="margin:0 0 36px; max-width:80ch; font-size:16px; line-height:1.7; color:#39424f; text-wrap:pretty;">We do not tie every order to a single factory. Production is placed across a vetted group of manufacturing partners, each selected for its strength in a particular product category and audited against buyer compliance requirements.</p>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:1px; background:rgba(19,26,36,0.12);">
+        <div style="padding:22px 24px; background:#ffffff; display:flex; align-items:baseline; gap:12px;"><span style="font-size:12px; color:#b4542f;">01</span><span style="font-size:16px; font-weight:500;">Shinest Group</span></div>
+        <div style="padding:22px 24px; background:#ffffff; display:flex; align-items:baseline; gap:12px;"><span style="font-size:12px; color:#b4542f;">02</span><span style="font-size:16px; font-weight:500;">AZ Apparels</span></div>
+        <div style="padding:22px 24px; background:#ffffff; display:flex; align-items:baseline; gap:12px;"><span style="font-size:12px; color:#b4542f;">03</span><span style="font-size:16px; font-weight:500;">Knit Plus</span></div>
+        <div style="padding:22px 24px; background:#ffffff; display:flex; align-items:baseline; gap:12px;"><span style="font-size:12px; color:#b4542f;">04</span><span style="font-size:16px; font-weight:500;">Nannu Group</span></div>
+        <div style="padding:22px 24px; background:#ffffff; display:flex; align-items:baseline; gap:12px;"><span style="font-size:12px; color:#b4542f;">05</span><span style="font-size:16px; font-weight:500;">Mim Fashion</span></div>
+        <div style="padding:22px 24px; background:#ffffff; display:flex; align-items:baseline; gap:12px;"><span style="font-size:12px; color:#b4542f;">06</span><span style="font-size:16px; font-weight:500;">Cross Sweater</span></div>
+        <div style="grid-column:span 2; padding:22px 24px; background:#ffffff; display:flex; align-items:baseline; gap:12px;"><span style="font-size:12px; color:#b4542f;">07</span><span style="font-size:16px; font-weight:500;">ZA Sweater</span></div>
+      </div>
+      <p style="margin:26px 0 0; font-size:14px; line-height:1.6; color:#5b6472; max-width:70ch;">Every partner unit is assessed on capacity, machine base, product specialisation and social compliance before any order is placed.</p>
+
+      <div style="margin-top:clamp(44px,5vw,72px); display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:clamp(24px,3vw,40px);">
+        <div>
+          <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#5b6472;">Social &amp; workplace</div>
+          <ul style="margin:16px 0 0; padding:0; list-style:none; display:flex; flex-direction:column; gap:10px; font-size:15px; line-height:1.55; color:#39424f;">
+            <li>WRAP accredited production</li>
+            <li>amfori BSCI</li>
+            <li>Sedex and SMETA</li>
+            <li>Workplace Conditions Assessment</li>
+            <li>SCAN security audit</li>
+          </ul>
+        </div>
+        <div>
+          <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#5b6472;">Product &amp; material</div>
+          <ul style="margin:16px 0 0; padding:0; list-style:none; display:flex; flex-direction:column; gap:10px; font-size:15px; line-height:1.55; color:#39424f;">
+            <li>OEKO-TEX Standard 100</li>
+            <li>Global Organic Textile Standard (GOTS)</li>
+            <li>Organic Content Standard 100</li>
+            <li>Organic Blended Content Standard</li>
+          </ul>
+        </div>
+        <div>
+          <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#5b6472;">Factory safety</div>
+          <p style="margin:16px 0 0; font-size:15px; line-height:1.6; color:#39424f;">Our partner units operate under the RMG Sustainability Council (RSC), the Bangladesh-run body that took over the fire, electrical and structural safety programme established by the Accord and the Alliance.</p>
+        </div>
+      </div>
+      <img src="img/certs.png" alt="Certification marks of the standards our partner factories are audited to" style="margin-top:clamp(28px,3vw,44px); width:100%; max-width:520px; height:auto;" />
+    </div>
+  </section>
+
+  <section id="contact" style="padding:clamp(56px,7vw,110px) clamp(20px,5vw,72px); background:#1d2b45; color:#f5f2ed;">
+    <div style="max-width:1200px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:clamp(32px,5vw,72px);">
+      <div>
+        <h2 style="margin:0; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(32px,3.8vw,56px); line-height:1.06; max-width:22ch;">Let's build your next season together.</h2>
+        <p style="margin:22px 0 30px; max-width:52ch; font-size:16px; line-height:1.7; color:rgba(245,242,237,0.82); text-wrap:pretty;">Send us your tech pack or your reference sample and we will come back with a costing, a development plan and a realistic delivery date.</p>
+        <a href="mailto:wahid@studioapparels.com?subject=Development%20request" style="display:inline-flex; align-items:center; padding:16px 28px; background:#f5f2ed; color:#1d2b45; border-radius:999px; font-size:14px; font-weight:600; white-space:nowrap;" style-hover="background:#b4542f; color:#ffffff;">Email us your tech pack</a>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:clamp(24px,3vw,36px); align-content:start;">
+        <div>
+          <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#e0a183;">Corporate office</div>
+          <p style="margin:14px 0 0; font-size:15px; line-height:1.7; color:rgba(245,242,237,0.86);">Jannat Villa, House 14, Flat 4/B<br />Road 07, Block 5, Dhaka Uddan<br />Mohammadpur, Dhaka 1207<br />Bangladesh<br />+880 1613 387877</p>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:26px;">
+          <div>
+            <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#e0a183;">Md. Wahid Bin Kashim</div>
+            <p style="margin:12px 0 0; font-size:15px; line-height:1.7; color:rgba(245,242,237,0.86);">Founder &amp; Chief Executive Officer<br /><a href="mailto:wahid@studioapparels.com" style="color:#f5f2ed; text-decoration:underline; text-underline-offset:3px;">wahid@studioapparels.com</a><br />+880 1713 387877</p>
+          </div>
+          <div>
+            <div style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#e0a183;">Md. Ariful Islam (Max)</div>
+            <p style="margin:12px 0 0; font-size:15px; line-height:1.7; color:rgba(245,242,237,0.86);">Sr. Graphic Designer &amp; Developer<br /><a href="mailto:max@studioapparels.com" style="color:#f5f2ed; text-decoration:underline; text-underline-offset:3px;">max@studioapparels.com</a><br />+880 1713 145986</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="padding:26px clamp(20px,5vw,72px); background:#131a24; color:rgba(245,242,237,0.6); display:flex; flex-wrap:wrap; gap:12px 28px; justify-content:space-between; font-size:13px;">
+    <span>Studio Apparels · Apparel sourcing, product development &amp; QA · Dhaka, Bangladesh</span>
+    <span>© 2026 Studio Apparels</span>
+  </footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showWorkplace&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;},&quot;showBuyerLogos&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      showWorkplace: this.props.showWorkplace ?? true,
+      showBuyerLogos: this.props.showBuyerLogos ?? true
+    };
+  }
+}
+</script>
+</body>
+</html>
